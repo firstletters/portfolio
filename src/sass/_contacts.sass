@@ -1,0 +1,34 @@
+footer
+    padding: 110px 0
+    h2
+        @include h2_34px
+    h3
+        @include h3_18px
+.footer
+    &_links
+        display: flex
+        width: 350px
+        justify-content: space-between
+        margin: 80px auto 40px
+
+
+    &_link
+        display: block
+        &:hover
+            box-shadow: 0px 5px $submain-gray
+            border-radius: 50px
+            transition: box-shadow .5s
+
+        
+
+    &_linkme
+        display: block
+        color: $main-gray
+        text-align: center
+        font-size: 14px
+        font-weight: 400
+        text-decoration: none
+        &:hover
+            transition: all 1s ease-out
+            color: $submain-gray
+            text-decoration: underline

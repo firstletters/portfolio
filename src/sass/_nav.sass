@@ -1,0 +1,23 @@
+.nav
+    &_links
+        display: flex
+        align-items: center
+        height: 90px
+        justify-content: space-between
+        list-style-type: none
+    &_link
+        text-decoration: none
+        font-weight: 700
+        color: $main-gray
+        font-size: 18px
+        
+        &_active
+            color: black
+        &:hover
+            transition: all 1s ease-out
+            color: $submain-gray
+            text-decoration: underline
+    &_line
+        height: 1px
+        width: 100%
+        background-color: $main-gray
